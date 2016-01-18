@@ -1,0 +1,14 @@
+package helloworld;
+
+import java.awt.Graphics;
+import javax.swing.JComponent;
+
+@SuppressWarnings("serial")
+public class HelloComponent extends JComponent {
+	public void paintComponent(Graphics g)
+	{
+		//draw message on specific location 
+		g.drawString("Hello World", 110, 110);
+	}
+
+}

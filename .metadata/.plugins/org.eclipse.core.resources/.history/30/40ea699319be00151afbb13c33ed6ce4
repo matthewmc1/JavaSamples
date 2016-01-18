@@ -1,0 +1,16 @@
+package helloworld;
+
+import javax.swing.*;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame( "Hello World!!" );
+		frame.getContentPane().add(new HelloComponent());
+		frame.setSize(300, 300);
+		frame.setVisible(true);
+	}
+
+	
+	
+}
