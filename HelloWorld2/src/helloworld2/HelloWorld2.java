@@ -36,7 +36,7 @@ implements MouseMotionListener{
 		g.drawString(theMessage, messageX, messageY);
 	}
 	
-	//gets co-ordinates of drag event and adds the message to this new location
+	//gets coordinates of drag event and adds the message to this new location
 	public void mouseDragged(MouseEvent e) {
 		messageX = e.getX();
 		messageY = e.getY();
@@ -44,9 +44,6 @@ implements MouseMotionListener{
 	}
 
 	//nothing implemented for mouseMove
-	public void mouseMoved(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void mouseMoved(MouseEvent e) {}
 	
 }
