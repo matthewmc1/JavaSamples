@@ -11,7 +11,7 @@ public class HelloWorld4 {
 		JFrame frame = new JFrame("Hello World");
 		frame.getContentPane().add( new HelloComponent4("Hello Java!!"));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(300, 300);
+		frame.setSize(300, 600);
 		frame.setVisible(true);		
 	}
 }
